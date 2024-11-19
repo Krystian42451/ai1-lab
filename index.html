@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikacja Pogodowa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="title">Aplikacja Pogodowa</h1>
+    <div class="search-section">
+        <label for="city" class="label">Wpisz nazwę miasta:</label>
+        <input type="text" id="city" class="input" placeholder="np. Warszawa">
+        <button id="getWeather" class="button">Pokaż pogodę</button>
+    </div>
+    <div id="results" class="results">
+        <h2 class="subtitle">Pogoda bieżąca:</h2>
+        <div id="currentWeather" class="weather-box"></div>
+        <h2 class="subtitle">Prognoza na 5 dni:</h2>
+        <div id="forecast" class="forecast-box"></div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
